@@ -1,10 +1,9 @@
 {
   "name": "react-quiz-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage" 
   },
   "keywords": [],
   "author": "",
@@ -14,5 +13,14 @@
     "express": "^4.18.2",
     "nodemon": "^2.0.22",
     "pg-promise": "^11.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://BBA-quiz@dev.azure.com/BBA-quiz/React-quiz/_git/React%20Quiz%20Api"
+  },
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
   }
 }
